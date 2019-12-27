@@ -158,9 +158,12 @@
     $(function() {
       $(document).scroll(function() {
         var $nav = $(".navbar-fixed-top");
-        $nav.toggleClass('scrolled', $(this).scrollTop() > 20);
+        $nav.toggleClass('scrolled', $(this).scrollTop() > 10);
       });
     });
+    window.onbeforeunload = function() {
+      window.scrollTo(0, 0);
+    }
   </script>
 
 </body>
