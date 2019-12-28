@@ -9,9 +9,7 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   padding: 5px;
-  -webkit-box-shadow: -1px 4px 30px -10px rgba(0, 17, 17, 1);
-  -moz-box-shadow: -1px 4px 30px -10px rgba(0, 17, 17, 1);
-  box-shadow: -1px 4px 30px -10px rgba(0, 17, 17, 1);
+  box-shadow: -5px 0px 15px -5px rgba(0, 51, 51, 1);
   border-radius: 25px;
 }
 
@@ -42,12 +40,18 @@ body {
   width: 100%;
 }
 
+.navbar-fixed-top {
+  background: rgba(255, 255, 255, 0.95);
+}
+
 .navbar-fixed-top.scrolled {
-  background-color: rgba(0, 51, 51, 0.95);
+  background: linear-gradient(to right, #fff, #fff, rgba(0, 51, 51, 0.95), rgba(0, 51, 51, 0.95), rgba(0, 51, 51, 0.95), rgba(0, 51, 51, 0.95), rgba(0, 51, 51, 0.95), rgba(0, 51, 51, 0.95),
+      #003333,
+      rgba(0, 51, 51, 0.95));
   transition: 0.5s linear;
 }
 
-.navbar-fixed-top.scrolled .navbar-bran img {
+.navbar-fixed-top.scrolled .navbar-bran .img {
   display: none;
 }
 
@@ -60,9 +64,6 @@ body {
   font-size: 22px;
   color: #fff;
   transition: 0.5s ease-in;
-  background: rgba(255, 255, 255, 0.29);
-  border-radius: 8px;
-  box-shadow: inset -10px -8px 10px -5px #003333;
   padding: 8px;
 }
 
@@ -82,6 +83,12 @@ body {
   padding: 8px;
 }
 
+.ii {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 992px) {
   .side {
     display: block;
@@ -92,15 +99,14 @@ body {
   }
 
   .blog {
-    background: rgba(0, 51, 51, 0.01);
     margin: 0px 10px 10px 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding: 5px;
-    -webkit-box-shadow: -1px 4px 30px -10px #003333;
+    /*  -webkit-box-shadow: -1px 4px 30px -10px #003333;
     -moz-box-shadow: -1px 4px 30px -10px #003333;
     box-shadow: -1px 4px 30px -10px #003333;
-    border-radius: 25px;
+    border-radius: 25px;*/
   }
 
   .blog .date {
