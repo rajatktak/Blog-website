@@ -29,7 +29,7 @@ body {
   padding-top: 20px;
 }
 
-.navbar-fixed-top.scrolled .nav-lin {
+.navbar-fixed-to.scrolled .nav-lin {
   color: #fff;
   right: 0;
 }
@@ -38,24 +38,24 @@ body {
   width: 100%;
 }
 
-.navbar-fixed-top {
+.navbar-fixed-to {
   background: rgba(255, 255, 255, 0.95);
 }
 
-.navbar-fixed-top.scrolled {
+.navbar-fixed-to.scrolled {
   background: rgba(0, 51, 51, 1);
   transition: 0.5s linear;
 }
 
-.navbar-fixed-top.scrolled .navbar-bran .img {
+.navbar-fixed-to.scrolled .navbar-bran .img {
   display: none;
 }
 
-.navbar-fixed-top.scrolled .navbar-bran span {
+.navbar-fixed-to.scrolled .navbar-bran span {
   display: block;
 }
 
-.navbar-fixed-top.scrolled .navbar-bran {
+.navbar-fixed-to.scrolled .navbar-bran {
   text-align: center;
   font-size: 22px;
   color: #fff;
@@ -86,7 +86,7 @@ body {
   font-size: 22px;
   color: #003333;
   border-radius: 8px;
-  padding: 8px;
+  padding: 0px;
 }
 
 .ii {

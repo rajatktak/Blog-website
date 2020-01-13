@@ -15,8 +15,44 @@
 </head>
 
 <body>
+  <!--
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <nav class="navbar navbar-expand-lg navbar-fixed-top  navbar-light " style="position:fixed;width:100%;z-index:22;">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>-->
+
+  <nav class="navbar navbar-expand-lg navbar-fixed-to  fixed-top " style="width:100%;z-index:22;">
     <a class="navbar-bran " style="" href="#"><img src="techster.gif" class="img"><span><img src="techsterr.gif" width="100px"></span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <img src="menu.svg" width="30px">
@@ -56,7 +92,7 @@
   <section style="margin-top:20px;" class="post">
     <div class="row">
       <div class="col-lg-1"></div>
-      <div class="col-lg-8" style=" background-image: linear-gradient(to bottom right, 	#FFF5EE,	#F8F8FF,	#FFF5EE,#F5F5F5,	#FEFEFA,	#FFF5EE,	#FFFAFA,	#FFFFF0,	#FFFAF0,	#FFF5EE ); box-shadow: inset 2px 12px 12px 10px rgba(255, 255, 255, 0.8);">
+      <div class="col-lg-8" style=" background-image: linear-gradient(to bottom right, 	#F8F8FF,#F5F5F5,	#FEFEFA,#FFFAFA,	#FFFFF0,	#FFFAF0, ); box-shadow: inset 2px 12px 12px 10px rgba(255, 255, 255, 0.8);">
         <!--blog1-->
         <div class="blog">
           <div class="row">
@@ -75,7 +111,7 @@
               <div class="row">
                 <div class="col-lg-6 ii ">
 
-                  <center><img src="https://inteng-storage.s3.amazonaws.com/img/iea/ZKwJQpyK6M/sizes/iran-supercomputer_resize_md.jpg" class="img-fluid iim" width="90%"></center>
+                  <center><img style="border-radius: 29% 71% 30% 70% / 53% 58% 42% 47%; " src="https://inteng-storage.s3.amazonaws.com/img/iea/ZKwJQpyK6M/sizes/iran-supercomputer_resize_md.jpg" class="img-fluid iim" width="90%"></center>
                 </div>
                 <div class="col-lg-6 intro">
                   <p style="text-align:justify;">this isn a blog of blof knk kdmfl kdnfkef fnfmf nandljfeekn jfbvjfnvobv jvndkjfpwfwwnbfo nvnvw vnnpiw hwjwpfjpw ifowhdnfpjwpfh <a href="#">...Read more</a></p>
@@ -192,7 +228,7 @@
   <script>
     $(function() {
       $(document).scroll(function() {
-        var $nav = $(".navbar-fixed-top");
+        var $nav = $(".navbar-fixed-to");
         $nav.toggleClass('scrolled', $(this).scrollTop() > 0);
       });
     });
